@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxhero{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+
+}
+img{
+    margin: auto;
+    margin-left: 100px;
+}
+p{
+    padding-top: 50px;
+}
+button{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

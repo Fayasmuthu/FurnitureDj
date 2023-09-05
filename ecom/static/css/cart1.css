@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Banner1{
+    width: 100%;
+    min-height: 70vh;
+    /* background: linear-gradient((rgba(0, 0, 0, 0.5))); */
+    background-size: cover;
+    /* background-color: rgba(230, 203, 154, 0.651); */
+    background-image: linear-gradient( 135deg, #ebdd98 10%, #d3851f 100%);
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.text h1{
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+.text h1 span{
+    color: rgb(238, 238, 238);
+    font-size: 80px;
+}
+.text p{
+    color: #723219;
+    font-weight: 600;
+}
+.text a{
+    color: rgb(0, 0, 0);
+}
+.text a:hover{
+    text-decoration:underline;
+    color: greenyellow;
+}
+.text p span{
+    color: #ffffffe0;
+}
+table{
+
+    margin: auto;
+
+
+}
+.wit{
+width: 100%;
+}
+.herotop{
+    margin-top: 150px;
+}
+tr,th,td{
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right:20px ;
+
+    
+}
+tr{
+    
+}
+.tab{
+    
+}
+th{
+    background-color: rgba(230, 203, 154, 0.651);
+    text-align: center;
+}
+.jut td{
+    border: 50px solid white;
+}
+.outcolor{
+    background-color: white;
+}
+td{
+    text-align: center;
+    
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box{
+    width: 300px;
+    height: 380px;
+    background-color: rgba(230, 203, 154, 0.651);
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 55px 1px;
+
+}
+.cartbox{
+    padding: 20px;
+}
+form{
+    margin-top: px;
+}
+
+.cartbox p{
+    padding-top: 20px;
+}
+.cartbox h1{
+    padding-top: 20px;
+}
+.cartbox button{
+    margin-top: 20px;
+    width: 200px;
+    background-color:blue;
+    color:white;
+    margin-left: 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 5px;
+
+}
+.table h1{
+    font-size: 30px;
+    margin: 20px;
+    padding-left: 100px;
+    color: #000000;
+    font-weight: 900;
+}
+.jut{
+    text-align: end;
+    background-color: rgba(230, 203, 154, 0.651);
+}
+.jut .startt{
+    text-align: start;
+    
+}
+.jut td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 900;
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+td{
+    padding: 30px;
+}
+.footer{
+    margin-top: 40px;
+    background-image: linear-gradient( 135deg, #f8e58e 50%, #be843ed2 100%);
+    color: #000000;
+}
+.footer p a , .footer p{
+    color: #000000;
+}
+@media (max-width:375px) {
+    .table tr{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.product-subtotal a{
+    padding: 15px;
+}
+
+.Clear1 {
+
+ opacity: 5px;
+ 
+}
+.Clear1 a{
+color: #000;
+}
+.Clear1:hover{
+    background-color: blue;
+}
+.Products-quantity a{
+    color: blue;
+}
+.cart_quantity_up, .cart_quantity_down{
+    color: blue;
+}
